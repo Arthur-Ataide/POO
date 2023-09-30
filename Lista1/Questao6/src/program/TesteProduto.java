@@ -32,9 +32,6 @@ public class TesteProduto {
 
         produto2.printTudo();
 
-        // altere os atributos do produto
-        // criado anteriormente. Exiba novamente na tela os dados do produto.
-
         produto2.setNome("Calça Jeans");
         produto2.setPreco(299.99);
         produto2.getEtiqueta().setMarca("Levis");

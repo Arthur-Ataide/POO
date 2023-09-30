@@ -8,11 +8,6 @@ public class Produto {
     private double preco;
     private Etiqueta etiqueta;
 
-//     Crie um construtor, que receba o nome, preço e um
-// objeto Etiqueta como parâmetros. Crie outro construtor, que receba o nome e preço do
-// produto, e também a marca e tamanho da etiqueta como parâmetros (o objeto Etiqueta deve
-// ser instanciado no construtor). Crie os métodos de acesso e modificadores.
-
     public Produto(String nome, double preco, Etiqueta etiqueta) {
         this.nome = nome;
         this.preco = preco;
